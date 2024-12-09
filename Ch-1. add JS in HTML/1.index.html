@@ -39,14 +39,21 @@ Inline	   JavaScript directly in HTML attributes	Simple, quick interactions
     <!-- <script src="1.index.js"></script> -->
   </head>
   <body>
-    <p id="demo"></p>
+    <p id="demo">guest</p>
+    <button id="btn" onclick="myFunction">log in</button>
 
     <!-- 2. Inline JS code in the body section -->
     <!-- <script>
-      document.getElementById("demo").textContent = "This is JS script";
+      //   document.getElementById("demo").textContent = "This is JS script";
+
+      document
+        .getElementById("btn")
+        .addEventListener("click", function myFunction() {
+          document.getElementById("demo").innerHTML = "logged in";
+        });
     </script> -->
 
     <!-- 3. Using an external file in the body section -->
-    <script src="1.index.js"></script>
+    <script src="1.index.js" defer></script>
   </body>
 </html>
