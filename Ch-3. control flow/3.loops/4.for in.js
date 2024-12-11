@@ -15,3 +15,22 @@ let value = "";
 for (value in person) {
   console.log(person[value]);
 }
+
+// another example
+
+let student = {
+  number: 500,
+  school: "xyz",
+  block: "A",
+  exam: "UPSC",
+};
+
+let studentDetails = "";
+
+let values = "";
+
+for (key in student) {
+  studentDetails += `${key}: ${student[key]} `;
+}
+
+console.log(studentDetails);
