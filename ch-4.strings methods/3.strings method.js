@@ -43,13 +43,24 @@ console.log("upper case op =>", text.toUpperCase());
 let trimTextExample = "            hello               ";
 
 console.log("length op text for trim =>", trimTextExample.length);
-let text11 = trimTextExample.trim();
-console.log("trim Op=>", trimTextExample.length);
 
-// trimEnd()	Returns a string with removed whitespace from the end
+console.log(
+  "whitespace removed and then after length of string =>",
+  trimTextExample.trim().length
+);
 
-let text12 = trimTextExample.trimStart();
-let text13 = trimTextExample.trimEnd();
+// we can trim from start and end using trim.start() and trim.end() methods
 
-console.log("trim start=>", trimTextExample.length);
-console.log("trim End=>", trimTextExample.length);
+// example
+
+console.log(
+  "removing whitespaces from starting part only and then after length of string =>",
+  trimTextExample.trimStart().length
+);
+
+// trim.end() example
+
+console.log(
+  "removing whitespaces from ending part only and then after length of string =>",
+  trimTextExample.trimEnd().length
+);
