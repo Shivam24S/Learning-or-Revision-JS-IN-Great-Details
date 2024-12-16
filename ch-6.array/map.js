@@ -28,3 +28,35 @@ let fruitsArray = fruits.map((fruits) => {
 });
 
 console.log("fruits array : ", fruitsArray);
+
+// another example
+
+const personDetails = [
+  { name: "John Smith", age: 45, city: "New York", profession: "Engineer" },
+  {
+    name: "Emily Davis",
+    age: 29,
+    city: "Los Angeles",
+    profession: "Graphic Designer",
+  },
+  { name: "Michael Brown", age: 67, city: "Chicago", profession: "Doctor" },
+  { name: "Sophia Wilson", age: 22, city: "Houston", profession: "Teacher" },
+  {
+    name: "David Martinez",
+    age: 38,
+    city: "San Francisco",
+    profession: "Developer",
+  },
+];
+
+// now i want to find only name
+
+const personName = personDetails.map((personDetails) => {
+  //   return personDetails["name"];
+
+  //   or
+
+  return personDetails.name;
+});
+
+console.log("person Names: " + personName);
