@@ -32,3 +32,33 @@ console.log(
 // here job is  method in our Person class object
 
 // and we are passing our parameters in method and accessing that
+
+// another example
+
+class BikeDetails {
+  constructor(brand, name, year) {
+    this.brand = brand;
+    this.name = name;
+    this.year = year;
+  }
+
+  bikeYear(year) {
+    return this.year - year;
+  }
+}
+
+const Bike1 = new BikeDetails("kawasaki", "ninja", 2025);
+
+console.log(
+  "bike full details :",
+  "my bike brand  is " +
+    Bike1.brand +
+    " " +
+    "and the bike name is " +
+    Bike1.name +
+    " " +
+    "and my bike is " +
+    Bike1.bikeYear(2020) +
+    " " +
+    "years old"
+);
