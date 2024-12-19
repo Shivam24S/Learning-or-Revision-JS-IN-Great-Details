@@ -45,3 +45,12 @@ for (const [key, value] of person.entries()) {
 // or we can use get() method to access the person map object
 
 console.log(person.get(MapObjectKey));
+
+// another example of creating map object
+
+const personDetails = new Map([
+  ["name", "shivam"],
+  ["surname", "shrivastav"],
+]);
+
+console.log("personDetails:", personDetails);
