@@ -7,22 +7,37 @@
 // creating a new Map object
 const map = new Map();
 
-console.log("type of ", typeof map); // will return object
+console.log("type of ", typeof map); // will return "object"
 
 // adding elements to the map
-
 map.set("name", "shivam");
 
-console.log(map); // will return Map(1) { 'name' => 'shivam'}
+console.log(map); // will return Map(1) { 'name' => 'shivam' }
 
 map.set("surname", "shrivastav");
 
 console.log(map);
 
 // i can do this like
-
 let obj = {};
 
 map.set(obj, { name: "shivam", surname: "shrivastav" });
 
 console.log(map);
+
+const person = new Map();
+
+// now i am storing function as key of map object
+function MapObjectKey() {
+  let key = 1;
+  return key;
+}
+
+person.set(MapObjectKey, "shivam");
+
+console.log("person Map object:", person);
+
+// to get details of the key and values
+for (const [key, value] of person.entries()) {
+  console.log("Key:", key, ", Value:", value);
+}
