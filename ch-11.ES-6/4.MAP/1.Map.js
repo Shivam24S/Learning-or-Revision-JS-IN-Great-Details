@@ -41,3 +41,7 @@ console.log("person Map object:", person);
 for (const [key, value] of person.entries()) {
   console.log("Key:", key, ", Value:", value);
 }
+
+// or we can use get() method to access the person map object
+
+console.log(person.get(MapObjectKey));
