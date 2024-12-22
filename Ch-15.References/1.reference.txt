@@ -1,0 +1,28 @@
+References
+
+GeeksforGeeks
+LINK: https://www.geeksforgeeks.org/javascript/
+
+Programiz
+LINK: https://www.programiz.com/javascript/get-started
+
+W3S SCHOOL
+LINK: https://www.w3schools.com/js/
+
+Namaste JavaScript by Akshay Saini (YouTube Series)
+LINK: https://www.youtube.com/watch?v=pN6jk0uUrD8&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP
+
+My Old JavaScript Revision Code Repo on GitHub
+LINK: https://github.com/Shivam24S/Learn-JavaScript
+
+AI Tools 
+
+ChatGPT by OpenAI
+LINK: https://chat.openai.com/
+
+GitHub Copilot
+LINK: https://github.com/features/copilot
+
+Tabnine AI
+
+VS Code - Extension
