@@ -5,7 +5,7 @@
 let i1 = 0;
 
 while (i1 < 10) {
-  console.log(i1);
+  console.log("i1", i1);
   i1++;
 }
 

@@ -23,6 +23,27 @@ Object        A collection of key-value pairs.                     let student =
 
 */
 
+// 📌 Primitive  Types: Stored in stack, immutable, passed by value.
+// Example: String, Number, Boolean, Null, Undefined, Symbol, BigInt.
+
+// let a = "hello";
+// let b = a; // Copying the value
+// b = "world";
+
+// console.log(a); // "hello"
+// console.log(b); // "world"
+
+// 📌 Non-Primitive  Types: Stored in heap, mutable, passed by reference.
+// Example: Object, Array, Function.
+
+// let obj1 = { name: "Shivam" };
+// let obj2 = obj1; // Reference is copied
+
+// obj2.name = "Rishiraj";
+
+// console.log(obj1.name); // "Rishiraj" (affected due to reference)
+// console.log(obj2.name); // "Rishiraj"
+
 // Example with types
 
 // We can check the data type using the `typeof` operator.
