@@ -12,10 +12,7 @@ const fruits = [
   "strawberry",
 ];
 
-console.log(
-  "return new string with each fruits element and | defenestrate",
-  fruits.join("|")
-);
+console.log("return new string with each fruits element ", fruits.join("|"));
 
 // JavaScript Array flat() Method
 // The flat() method is used to flatten the array i.e. it merges all the given array and reduces all the nesting present in it.

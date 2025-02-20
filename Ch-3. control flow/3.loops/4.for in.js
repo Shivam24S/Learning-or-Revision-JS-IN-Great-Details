@@ -8,8 +8,6 @@ let person = {
   age: 22,
 };
 
-let personDetails = "";
-
 let value = "";
 
 for (value in person) {

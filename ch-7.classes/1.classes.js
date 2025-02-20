@@ -19,6 +19,8 @@ let carOne = new Car("BMW", "M5");
 
 console.log("Car one details:", carOne);
 
+console.log("car one type", typeof carOne);
+
 // Another example:
 
 let carTwo = new Car("Mercedes", "G-wagon");

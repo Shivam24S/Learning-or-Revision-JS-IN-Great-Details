@@ -23,7 +23,7 @@
 async function fetchingData() {
   console.log("Fetching data...");
 
-  let dataAvailable = false;
+  let dataAvailable = true;
 
   try {
     if (dataAvailable) {
