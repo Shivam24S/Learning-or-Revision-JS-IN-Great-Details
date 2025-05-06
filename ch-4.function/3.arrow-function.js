@@ -18,6 +18,6 @@ arrowFunction();
 
 // We can omit curly braces if there is a single line of code.
 
-const arrowFunction2 = () => console.log("omiting curly braces");
+const arrowFunction2 = () => console.log("omitting curly braces");
 
 arrowFunction2();

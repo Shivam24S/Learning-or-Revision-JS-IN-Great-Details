@@ -1,4 +1,4 @@
-// we can pas default parameter in our function
+// we can pass default parameter in our function
 
 // example
 
