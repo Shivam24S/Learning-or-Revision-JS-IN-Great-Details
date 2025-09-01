@@ -23,3 +23,11 @@ setInterval(currentTime, 1000);
 // In the above program, the setInterval() method calls the currentTime() function every 1000 milliseconds(1 second).
 
 // Hence the program displays the time once every 1 second.
+
+// function greet() {
+//   console.log("hello");
+// }
+
+// setInterval(() => {
+//   console.log("hello");
+// }, 5000);

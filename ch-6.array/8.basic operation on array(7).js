@@ -18,6 +18,8 @@ console.log(
   fruits.indexOf("mango")
 );
 
+// <--------------------------------------->
+
 // counting from zero
 
 // JavaScript includes() Method
@@ -36,6 +38,8 @@ console.log(
   "now i want to check orange is available in fruit array or not and the answer is :",
   fruits.includes("orange")
 );
+
+// <----------------------------------------------->
 
 //  JavaScript sort() Method
 // This method sorts the elements of an array in alphabetical order in ascending order.

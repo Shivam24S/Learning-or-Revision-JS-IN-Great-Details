@@ -6,7 +6,7 @@ console.log("split string into array with space added ", text.split(" "));
 
 console.log("split string into array without space", text.split(""));
 
-console.log("split string with o", text.split("s")); // will remove specified value in text and return string
+console.log("split string with o", text.split("l")); // will remove specified value in text and return string
 
 // startsWith() methods ==> startswith method whether a string begins with specified characters
 
@@ -23,6 +23,8 @@ console.log("startswith method", text.startsWith("shivam"));
 // If start is greater than end, arguments are swapped: (4, 1) = (1, 4).
 
 // Start or end values less than 0, are treated as 0
+
+console.log("text", text);
 
 console.log("substring example", text.substring(2));
 

@@ -45,9 +45,15 @@ const paymentDetails = new Promise((resolve, reject) => {
 
 // and the below code is promise consuming code
 
-paymentDetails.then((message) => {
-  console.log("success :", message);
-});
+paymentDetails
+  .then((message) => {
+    console.log("success :", message);
+  })
+  .then(() => {
+    console.log("quit now");
+  }).then(()=>{
+    
+  });
 
 paymentDetails.catch((err) => {
   console.log("reject :", err);

@@ -25,9 +25,7 @@ let student = {
 
 let studentDetails = "";
 
-let values = "";
-
-for (key in student) {
+for (let key in student) {
   studentDetails += `${key}: ${student[key]} `;
 }
 

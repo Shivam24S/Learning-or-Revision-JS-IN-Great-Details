@@ -58,7 +58,7 @@ console.log(
     Bike1.name +
     " " +
     "and my bike is " +
-    Bike1.bikeYear(2020) +
+    Bike1.bikeYear(2024) +
     " " +
     "years old"
 );

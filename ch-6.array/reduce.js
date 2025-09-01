@@ -7,11 +7,21 @@ let numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 console.log("number array : " + numberArray);
 
-const sumOfNumbers = numberArray.reduce((accumulator, element) => {
-  return accumulator + element;
+const sumOfNumbers = numberArray.reduce((accumulator, current) => {
+  return accumulator + current;
 });
 
 console.log("sumOfNumbers : " + sumOfNumbers);
+
+// using loop
+
+let sum = 0;
+
+for (let i = 0; i < numberArray.length; i++) {
+  sum += numberArray[i];
+}
+
+console.log("sum using loop", sum);
 
 // another example finding with for loop
 
@@ -26,14 +36,40 @@ function findingMax(numberArray) {
 
 findingMax(numberArray);
 
+console.log("<-------------------------------->");
+
+// finding max using loop
+
+function findingMax2(numberArray) {
+  let max = 0;
+
+  for (let i = 0; i < numberArray.length; i++) {
+    if (numberArray[i] > max) {
+      max = numberArray[i];
+    }
+  }
+  console.log("finding max using second method", max);
+}
+
+findingMax2(numberArray);
+
 // with reduce method
 
 const maxNum = numberArray.reduce((accumulator, current) =>
   Math.max(accumulator, current)
 );
 
+const maxNum2 = numberArray.reduce((accumulator, current) => {
+  if (accumulator > current) {
+    current = accumulator;
+  }
+
+  return current;
+});
+
 console.log("maxNum : " + maxNum);
 
+console.log("maxNum2", maxNum2);
 // another example
 
 const personDetails = [

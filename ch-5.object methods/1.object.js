@@ -7,6 +7,8 @@ const personDetails = {
   age: 22,
 };
 
+console.log(typeof personDetails);
+
 console.log("personDetails", personDetails);
 
 // here personDetails object which contains some information regarding the person in key value pairs
@@ -14,6 +16,8 @@ console.log("personDetails", personDetails);
 // creating object using object constructor
 
 const studentDetails = new Object();
+
+console.log(typeof studentDetails);
 
 studentDetails.totalStudent = 500;
 

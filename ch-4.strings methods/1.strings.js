@@ -22,7 +22,7 @@ console.log("joined strings:" + text.concat(" good morning"));
 
 // endsWith() method ==> returns true if the string ends with a specified value
 
-console.log("ends with:" + text.endsWith("m"));
+console.log("ends with:" + text.endsWith("s"));
 
 // includes() method ==> returns true if the string contains a specified value
 
@@ -37,7 +37,7 @@ console.log(
 );
 
 // lastIndexOf() method ==> returns the last occurrence of a value in string
-console.log("lastIndex :" + text.lastIndexOf("shivam"));
+console.log("lastIndex :" + text.lastIndexOf("s"));
 
 // length returns the length of the string
 

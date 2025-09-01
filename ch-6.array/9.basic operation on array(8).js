@@ -9,11 +9,15 @@ let numGreaterThan5 = numArray.find((values) => values > 5);
 
 console.log("finding number greater than five in numArray", numGreaterThan5);
 
+// <------------------------------------------------->
+
 // findingIndex
 
 let numGreaterThan5index = numArray.findIndex((values) => values > 5);
 
 console.log("index of numGreaterThan5 in numArray is :", numGreaterThan5index);
+
+// <----------------------------------------------------->
 
 // JavaScript slice() & splice() Method
 // slice() selects the specified number of elements without affecting the original array elements whereas splice() removes the selected elements from the original array itself.

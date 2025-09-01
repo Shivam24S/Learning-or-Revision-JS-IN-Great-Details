@@ -9,14 +9,14 @@
 // milliseconds - the time after which the function is executed
 // The setTimeout() method returns an intervalID, which is a positive integer.
 
-const greeting = () => {
-  console.log("greeting function Op will print hello after 5 seconds");
-  setTimeout(() => {
-    console.log("hello");
-  }, 5000);
-};
+// const greeting = () => {
+//   console.log("greeting function Op will print hello after 5 seconds");
+//   setTimeout(() => {
+//     console.log("hello");
+//   }, 5000);
+// };
 
-greeting();
+// greeting();
 
 // another example
 

@@ -23,6 +23,7 @@ console.log("car Color :", Car.carColor());
 
 console.log("my car color is (err) :", carDetail.carColor());
 
+
 //  another example
 
 // if you want to use the  object inside the static method, you can send it as a parameter:

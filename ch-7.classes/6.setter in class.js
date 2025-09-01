@@ -3,10 +3,10 @@
 // example
 
 class Person {
-  constructor(name, age, job) {
+  constructor(name, age) {
     this.name = name;
     this.age = age;
-    this.job = job;
+    this.job = "";
   }
 
   set personJob(jobName) {

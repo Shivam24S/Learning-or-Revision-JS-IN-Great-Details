@@ -1,13 +1,15 @@
 // JavaScript Array some() Method
 // The some() method checks whether at least one of the elements of the array satisfies the condition checked by the argument function.
 
-function checkAge(age) {
-  return age > 18;
-}
+// function checkAge(age) {
+//   return age > 18;
+// }
 
 let ages = [1, 2, 3, 12, 15, 18, 20];
 
-let olderAge = ages.some(checkAge);
+let olderAge = ages.some((x) => {
+  return x > 18;
+});
 
 console.log(olderAge);
 
@@ -26,5 +28,5 @@ console.log("revering num array", numArray.reverse());
 const numIterators = numArray.values();
 
 for (let value of numIterators) {
-  console.log(value);
+  console.log("value", value);
 }

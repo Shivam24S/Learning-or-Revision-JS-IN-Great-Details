@@ -28,3 +28,5 @@ console.log(
   "now we we have changed second element in fruits array :",
   fruits[1]
 );
+
+console.log("fruits after guava added", fruits);

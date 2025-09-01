@@ -23,31 +23,32 @@
 // The finally statement lets you execute code after try and catch.
 // The finally block runs regardless of the result of the try-catch block.
 
-function checkAge() {
-  const age = 15;
-  try {
-    if (age >= 18) {
-      console.log("you are eligible for voting");
-    } else if (age <= 18) {
-      throw new Error("you are not eligible for voting");
-    }
-  } catch (error) {
-    console.log(error.message);
-  }
-}
+// function checkAge() {
+//   const age = 15;
 
-checkAge();
+//   try {
+//     if (age >= 18) {
+//       console.log("you are eligible for voting");
+//     } else if (age <= 18) {
+//       throw new Error("you are not eligible for voting");
+//     }
+//   } catch (error) {
+//     console.log(error.message);
+//   }
+// }
+
+// checkAge();
 
 // another example with finally statements
 
 const isStudentPassed = () => {
-  let marks = 80;
+  let marks = 34;
 
   try {
     if (marks >= 35) {
       console.log("you have passed this examination");
     } else if (marks < 35) {
-      throw new error("you have failed this examination");
+      throw new Error("you have failed this examination");
     }
   } catch (error) {
     console.log(error.message);

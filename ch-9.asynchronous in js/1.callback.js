@@ -19,3 +19,14 @@ function totalSumOfNumbers(a, b, callBackFunc) {
 }
 
 totalSumOfNumbers(14, 10, callbackFunc);
+
+// **********************************************************************
+
+function totalSum(a, b, arrFunc) {
+  const result = a + b;
+  arrFunc(result);
+}
+
+totalSum(10, 20, (a) => {
+  console.log(a);
+});
