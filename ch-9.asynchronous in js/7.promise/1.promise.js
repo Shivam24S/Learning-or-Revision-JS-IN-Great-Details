@@ -51,9 +51,8 @@ paymentDetails
   })
   .then(() => {
     console.log("quit now");
-  }).then(()=>{
-    
-  });
+  })
+  .then(() => {});
 
 paymentDetails.catch((err) => {
   console.log("reject :", err);

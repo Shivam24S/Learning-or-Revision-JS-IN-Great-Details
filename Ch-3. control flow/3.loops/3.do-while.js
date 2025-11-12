@@ -28,3 +28,10 @@ do {
   test++;
   console.log("this will execute once");
 } while (test >= 10); // Condition is false after the first iteration
+
+let number = 21;
+
+do {
+  console.log(number);
+  number++;
+} while (number <= 20);

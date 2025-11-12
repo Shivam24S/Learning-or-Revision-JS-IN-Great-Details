@@ -73,3 +73,19 @@ payment(1500, (err, amount) => {
 // The nested structure shows how each function depends on the previous one, making the code grow horizontally and harder to read.
 
 // to overcome this problem we can use promise
+
+// function two(a) {
+//   console.log(a);
+// }
+
+// function one(cb) {
+//   const timer = setInterval(() => {
+//     cb("i am callback function");
+//   }, 1000);
+
+//   setTimeout(() => {
+//     clearInterval(timer);
+//   }, 10000);
+// }
+
+// one(two);

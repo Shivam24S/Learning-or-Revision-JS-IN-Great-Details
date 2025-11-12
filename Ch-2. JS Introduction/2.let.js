@@ -19,7 +19,7 @@ function checkBlockScope() {
   console.log(message); // Accessible here
 
   // Trying to access blockMessage outside the block will cause an error
-  //   console.log(blockMessage); // ReferenceError: blockMessage is not defined
+  // console.log(blockMessage); // ReferenceError: blockMessage is not defined
 }
 
 checkBlockScope();

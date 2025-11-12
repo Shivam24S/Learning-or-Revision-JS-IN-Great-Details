@@ -26,12 +26,12 @@ Object        A collection of key-value pairs.                     let student =
 // 📌 Primitive  Types: Stored in stack, immutable, passed by value.
 // Example: String, Number, Boolean, Null, Undefined, Symbol, BigInt.
 
-// let a = "hello";
-// let b = a; // Copying the value
-// b = "world";
+let a = "hello";
+let b = a; // Copying the value
+b = "world";
 
-// console.log(a); // "hello"
-// console.log(b); // "world"
+console.log(a); // "hello"
+console.log(b); // "world"
 
 // 📌 Non-Primitive  Types: Stored in heap, mutable, passed by reference.
 // Example: Object, Array, Function.
@@ -58,7 +58,7 @@ console.log("Type of greetings:", greetingType);
 
 // 2. Number Example
 let age = 25;
-console.log("age: " + age);
+console.log("age: ", age);
 console.log("Type of age:", typeof age);
 
 // 3. BigInt Example

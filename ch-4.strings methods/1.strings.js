@@ -42,15 +42,3 @@ console.log("lastIndex :" + text.lastIndexOf("s"));
 // length returns the length of the string
 
 console.log("length of string :" + text.length);
-
-// localeCompare()	Compares two strings in the current locale
-
-// -1 if sorted before
-// 1 if sorted after
-// 0 if equal
-
-let a = "ab";
-let b = "cd";
-console.log("local Compare", a.localeCompare(b));
-console.log("local Compare", b.localeCompare(a));
-console.log("local Compare", a.localeCompare(a));

@@ -30,3 +30,17 @@ function totalSum(a, b, arrFunc) {
 totalSum(10, 20, (a) => {
   console.log(a);
 });
+
+//
+
+function result() {
+  console.log(result);
+}
+
+function total(a, b, callbackFunc) {
+  const result = a + b;
+
+  callbackFunc(result);
+}
+
+total(10, 20, result);

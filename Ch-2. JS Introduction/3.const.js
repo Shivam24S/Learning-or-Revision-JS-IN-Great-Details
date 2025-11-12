@@ -23,7 +23,7 @@ function personDetail() {
   personAge();
 
   // This will generate a ReferenceError because age is not accessible here
-  console.log("person age will not be accessible here =>", age);
+  // console.log("person age will not be accessible here =>", age);
 }
 
 personDetail();
@@ -35,3 +35,13 @@ const num = 24;
 // We must initialize a const variable during declaration; otherwise, it will generate an error
 // const student; // SyntaxError: Missing initializer in const declaration
 // student = "evan";  // Not possible
+
+const student = {
+  name: "shivam",
+};
+
+console.log(student.name);
+
+student.name = "xyz";
+
+console.log(student.name);

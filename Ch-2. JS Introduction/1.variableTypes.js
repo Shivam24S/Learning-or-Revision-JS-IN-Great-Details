@@ -21,6 +21,8 @@ function sayName() {
   console.log("person ->", person);
 }
 
+// console.log(person);
+
 // function invocation
 
 sayName();

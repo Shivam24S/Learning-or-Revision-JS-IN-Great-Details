@@ -11,3 +11,5 @@ document.getElementById("demo").innerHTML = "guest";
 document.getElementById("btn").addEventListener("click", function myFunction() {
   document.getElementById("demo").innerHTML = "logged in";
 });
+
+const num = 5;

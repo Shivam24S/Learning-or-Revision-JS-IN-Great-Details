@@ -31,16 +31,29 @@ const checkBalance = () => {
   });
 };
 
-const payment = async () => {
+// const payment = async () => {
+//   try {
+//     await checkPayment();
+//     console.log("Fetching account balance...");
+//     await checkBalance();
+//   } catch (error) {
+//     console.log(error);
+//   } finally {
+//     console.log("Do you want to explore more?");
+//   }
+// };
+
+async function payment() {
   try {
     await checkPayment();
     console.log("Fetching account balance...");
     await checkBalance();
+    console.log("it will print after");
   } catch (error) {
     console.log(error);
   } finally {
     console.log("Do you want to explore more?");
   }
-};
+}
 
 payment();
