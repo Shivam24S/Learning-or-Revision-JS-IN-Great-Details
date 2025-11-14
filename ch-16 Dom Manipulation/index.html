@@ -8,6 +8,47 @@
   <body>
     <p id="para">this is id paragraph</p>
     <p class="para2">this is class paragraph</p>
+    <h4>this is querySelector paragraph</h4>
+    <p class="style">this is class para for querySelector</p>
+
+    <h3 class="allQuery">this is para one for querySelector All</h3>
+    <h3 class="allQuery">this is para two for querySelector All</h3>
+
+    <!-- events -->
+
+    <!-- click event -->
+    <button onclick="clicked()" id="btn">click</button>
+    <br />
+    <br />
+    <br />
+
+    <!-- submit event -->
+    <form id="form">
+      <input id="task" type="text" placeholder="task" name="task" />
+      <br />
+      <br />
+      <br />
+      <input
+        id="description"
+        type="text"
+        placeholder="description"
+        name="description"
+      />
+      <br />
+      <br />
+      <br />
+      <button type="submit">submit</button>
+    </form>
+
+    <script>
+      function clicked() {
+        document.querySelector("#btn").addEventListener("click", () => {
+          document.getElementById("btn").textContent = "clicked";
+          alert("button clicked");
+        });
+      }
+    </script>
+
     <script src="./script.js"></script>
   </body>
 </html>
