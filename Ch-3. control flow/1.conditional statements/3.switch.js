@@ -2,7 +2,7 @@
 
 // example
 
-let light = "red";
+let light = "green";
 
 switch (light) {
   case "green":

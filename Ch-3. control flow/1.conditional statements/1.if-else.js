@@ -16,7 +16,7 @@ if (age >= 18) {
 
 // example
 
-let marks = 35;
+let marks = 86;
 
 if (marks >= 85) {
   console.log("congratulation you have passed this exam with A grade");
